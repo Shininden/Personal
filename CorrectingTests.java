@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class CorrectingTests 
 {
-
-
     public static void main(String[] args)
     { 
         Scanner sc = new Scanner(System.in);
@@ -14,7 +12,6 @@ public class CorrectingTests
         char givenAnswers;
         double finalGrade = 0;
         
-
         //Registering AnswerKey
         System.out.println("Registrate the Answer Key: ");
 
