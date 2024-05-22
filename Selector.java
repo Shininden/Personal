@@ -15,12 +15,13 @@ public class Selector
 
             if(gender.equalsIgnoreCase("m") && hairColor.equalsIgnoreCase("Brunnete") && age >= 18)
                 brunnete18Male++;
+
             else if(gender.equalsIgnoreCase("f") && hairColor.equalsIgnoreCase("Blond") && age >= 25 && age <= 30)
                 blondOnnesan++;
 
             answer = JOptionPane.showInputDialog("Would you like to continue? [Y/N]");
-        } 
-        while (answer.equalsIgnoreCase("Y"));
+            
+        } while (answer.equalsIgnoreCase("Y"));
         
         JOptionPane.showMessageDialog(null, "There are " + brunnete18Male + " brunnete 18 Males \nThere are " + blondOnnesan + " blond Oneesans");
     }
