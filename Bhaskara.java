@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Listao27 
+public class Bhaskara 
 {
     static int a = 0, b = 0, c = 0;
 
