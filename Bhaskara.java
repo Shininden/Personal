@@ -36,6 +36,4 @@ public class Bhaskara
         
         return bsqr - (4 * a * c);
     }
-
-    
 }
