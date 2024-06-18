@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Vetores2 
+public class AverageGrades 
 {
     public static void main(String[] args) 
     {

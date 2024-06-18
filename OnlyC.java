@@ -23,7 +23,6 @@ public class OnlyC
 
         for (int j = 0; j < tot_Of_Cnames; j++) 
         {
-            
             JOptionPane.showMessageDialog(null, onlyCs[j]);
         }
     }

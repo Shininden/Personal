@@ -107,6 +107,7 @@ public class JogoDaVelha
         {
             if((board[l][1] == 'X') && (board[l][2] == 'X') && (board[l][3] == 'X'))
                 winner = 1;
+                
             else if((board[l][1] == 'O') && (board[l][2] == 'O') && (board[l][3] == 'O'))
                 winner = 2;
         }
@@ -116,6 +117,7 @@ public class JogoDaVelha
         {
             if((board[1][c] == 'X') && (board[2][c] == 'X') && (board[3][c] == 'X'))
                 winner = 1;
+
             else if((board[1][c] == 'O') && (board[2][c] == 'O') && (board[3][c] == 'O'))
                 winner = 2;
         }
@@ -123,12 +125,14 @@ public class JogoDaVelha
         //First Diagonal Test
         if((board[1][1] == 'X') && (board[2][2] == 'X') && (board[3][3] == 'X'))
             winner = 1;
+
         else if((board[1][1] == 'O') && (board[2][2] == 'O') && (board[3][3] == 'O'))
             winner = 2;
 
         //Second Diagonal test
         if((board[1][3] == 'X') && (board[2][2] == 'X') && (board[3][1] == 'X'))
             winner = 1;
+
         else if((board[1][3] == 'O') && (board[2][2] == 'O') && (board[3][1] == 'O'))
             winner = 2;
     }
