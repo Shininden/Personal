@@ -1,8 +1,6 @@
 package Basic.Math;
 import java.util.Scanner;
 
-
-
 public class Listao29
 {
     
