@@ -1,3 +1,4 @@
+package Basic.Repetition;
 public class ShowFatorial
 {
     public static void main(String[] args) 

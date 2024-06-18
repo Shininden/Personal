@@ -1,3 +1,4 @@
+package Basic.Vector;
 import java.util.Scanner;
 
 public class AverageGrades 

@@ -1,3 +1,4 @@
+package Basic.Math;
 import java.util.Scanner;
 
 public class List3_33 
