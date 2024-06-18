@@ -12,6 +12,7 @@ public class Listao29
     
     public static void main(String[] args) 
     {
+        System.out.println("csfs");
         System.out.print("Provide me a number ");
         n = sc.nextInt();
 
