@@ -18,15 +18,16 @@ public class CorrectingTests
 
         for(int i = 0; i < answerKey.length; i++)
         {
-            System.out.println("Question " + (i+1) + ":");
+            System.out.print("Question " + (i+1) + ": ");
             answerKey[i] = sc.nextLine().charAt(0);
         }
-
+        
+        System.out.println();
 
         //Getting Students Inputs
         for(int i = 0; i<3;i++)
         {
-            System.out.println("Student's names: ");
+            System.out.print("Student's names: ");
             studentsNames[i] = sc.nextLine();
 
             System.out.println("Given answers:");
@@ -51,7 +52,7 @@ public class CorrectingTests
 
         //Displaying Results
         for(int i = 0; i < studentsNames.length; i++)
-            System.out.println("Student " + studentsNames[i] + " grade: " + grades[i]);
+            System.out.println(studentsNames[i] + "'s grade: " + grades[i]);
 
 
         System.out.printf("Class Average: %.2f", (finalGrade));
