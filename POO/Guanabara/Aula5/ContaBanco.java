@@ -1,11 +1,7 @@
-package POO;
-
-import java.util.Scanner;
+package POO.Guanabara.Aula5;
 
 public class ContaBanco
 {
-    Scanner sc = new Scanner(System.in);
-
     public int numConta;
     protected String tipoConta;
     private String userName;

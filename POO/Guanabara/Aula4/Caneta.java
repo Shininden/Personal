@@ -1,4 +1,4 @@
-package POO;
+package POO.Guanabara.Aula4;
 
 public class Caneta
 {
